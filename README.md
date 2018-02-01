@@ -16,13 +16,13 @@
     [R/01\_write-installed-packages.R](R/01_write-installed-packages.R).
     Write the script as directed. Run it. Commit and push the current
     state.~~
-  - Open [R/02\_wrangle-packages.R](R/02_wrangle-packages.R). Fill in
+  - ~~Open [R/02\_wrangle-packages.R](R/02_wrangle-packages.R). Fill in
     the missing pieces of the script as directed. Run it. Commit and
-    push the current state.
-  - Open
+    push the current state.~~
+  - ~~Open
     [R/03\_barchart-packages-built.R](R/03_barchart-packages-built.R).
     Fill in the missing pieces of the script as directed. Run it. Commit
-    and push the current state.
+    and push the current state.~~
   - Fill in the blanks below in this README, using the results stored
     elsewhere.
   - If you get this far, write an R script to run the whole analysis
@@ -32,10 +32,24 @@
 
 The goal of packages-report is to FINISH THIS SENTENCE.
 
-I have `FILL THIS IN!!!` add-on packages installed.
+I have 195 add-on packages installed.
 
 Here’s how they break down in terms of which version of R they were
 built under, which is related to how recently they were updated on CRAN.
+
+    #> Parsed with column specification:
+    #> cols(
+    #>   Built = col_character(),
+    #>   n = col_integer(),
+    #>   prop = col_double()
+    #> )
+    #> # A tibble: 4 x 3
+    #>   Built     n      prop
+    #>   <chr> <int>     <dbl>
+    #> 1 3.4.0    89 0.4564103
+    #> 2 3.4.1    42 0.2153846
+    #> 3 3.4.2    24 0.1230769
+    #> 4 3.4.3    40 0.2051282
 
 ![](figs/built-barchart.png)
 
