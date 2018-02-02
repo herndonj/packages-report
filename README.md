@@ -30,7 +30,8 @@
 
 ## Overview
 
-The goal of packages-report is to FINISH THIS SENTENCE.
+The goal of packages-report is to report on nature of user installed
+packages.
 
 I have 195 add-on packages installed.
 
@@ -43,13 +44,128 @@ built under, which is related to how recently they were updated on CRAN.
     #>   n = col_integer(),
     #>   prop = col_double()
     #> )
-    #> # A tibble: 4 x 3
-    #>   Built     n      prop
-    #>   <chr> <int>     <dbl>
-    #> 1 3.4.0    89 0.4564103
-    #> 2 3.4.1    42 0.2153846
-    #> 3 3.4.2    24 0.1230769
-    #> 4 3.4.3    40 0.2051282
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Built
+
+</th>
+
+<th style="text-align:right;">
+
+n
+
+</th>
+
+<th style="text-align:right;">
+
+prop
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+3.4.0
+
+</td>
+
+<td style="text-align:right;">
+
+89
+
+</td>
+
+<td style="text-align:right;">
+
+0.4564103
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+3.4.1
+
+</td>
+
+<td style="text-align:right;">
+
+42
+
+</td>
+
+<td style="text-align:right;">
+
+0.2153846
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+3.4.2
+
+</td>
+
+<td style="text-align:right;">
+
+24
+
+</td>
+
+<td style="text-align:right;">
+
+0.1230769
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+3.4.3
+
+</td>
+
+<td style="text-align:right;">
+
+40
+
+</td>
+
+<td style="text-align:right;">
+
+0.2051282
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 ![](figs/built-barchart.png)
 

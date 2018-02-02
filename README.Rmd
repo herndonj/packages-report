@@ -29,7 +29,7 @@ library(here)
 
 ## Overview
 
-The goal of packages-report is to FINISH THIS SENTENCE.
+The goal of packages-report is to report on nature of user installed packages.
 
 ```{r, include = FALSE}
 ## load data/add-on-packages-freqtable.csv here in this chunk
@@ -43,7 +43,8 @@ Here's how they break down in terms of which version of R they were built under,
 ## print the frequency table here
 ## make it prettier if you know how
 
-read_csv(here("data","add-on-packages-freqtable.csv"))
+read_csv(here("data","add-on-packages-freqtable.csv")) %>% knitr::kable(format = "html")
+
 ```
 
 ![](figs/built-barchart.png)
